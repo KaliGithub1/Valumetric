@@ -1,0 +1,50 @@
+.hero-section {
+  margin-top: 48px;
+  .section-flex{
+    align-items: center;
+  }
+  span {
+    color: $secondaryColor;
+  }
+  .text-description {
+    h1{
+        margin-bottom: 16px;
+    }
+    p{
+        margin-bottom: 48px;
+    }
+    button{
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        .arrow-icon{
+            background-color: $backgroundColor;
+            padding: 8px;
+            border-radius: 100%;
+            color: #fff;
+            font-size: 48px;
+            margin-top: 2px;
+        }
+    }
+  }
+}
+
+@media (max-width: 820px){
+    .hero-section{
+        margin-top: 96px;
+    }
+}
+
+.benefit--small-section{
+    padding: 24px;
+    h5{
+        font-weight: 500;
+
+    }
+    h3{
+        font-weight: 400;
+        max-width: 1000px;
+        color: rgba(255, 255, 255, 0.5);
+        margin-top: 8px;
+    }
+}
